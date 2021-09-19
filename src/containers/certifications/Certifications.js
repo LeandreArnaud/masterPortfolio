@@ -16,7 +16,7 @@ class Certifications extends Component {
             </h1>
           </Fade>
         </div>
-        <div className="certs-body-div">
+        <div className="certs-body-div" style={{ justifyContent: 'center' }}>
           {certifications.certifications.map((cert) => {
             return <CertificationCard certificate={cert} theme={theme} />;
           })}

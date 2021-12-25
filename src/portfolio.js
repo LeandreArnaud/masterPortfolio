@@ -90,7 +90,7 @@ const skills = {
       skills: [
         "⚡ Developing production ready models for various deeplearning and statistical use cases",
         "⚡ Experience of working with Computer Vision, Clustering, Regression, Classification and Scoring projects",
-        "⚡ Accustomed to present powerful presentations to interpret complex modeling and statistical report to guide decision-makers' choices"
+        "⚡ Accustomed to present powerful presentations to interpret complex modeling and statistical report to guide decision-makers' choices",
       ],
       softwareSkills: [
         {
@@ -113,7 +113,7 @@ const skills = {
           fontAwesomeClassname: "simple-icons:scikitlearn",
           style: {
             backgroundColor: "transparent",
-            color: "#f38839"
+            color: "#f38839",
           },
         },
         {
@@ -128,7 +128,7 @@ const skills = {
           fontAwesomeClassname: "simple-icons:plotly",
           style: {
             backgroundColor: "transparent",
-            color: "#0091f2"
+            color: "#0091f2",
           },
         },
         {
@@ -136,7 +136,7 @@ const skills = {
           fontAwesomeClassname: "carbon:sql",
           style: {
             backgroundColor: "transparent",
-            color:"#f7a326"
+            color: "#f7a326",
           },
         },
         {
@@ -160,8 +160,7 @@ const skills = {
         {
           skillName: "Android",
           fontAwesomeClassname: "flat-color-icons:android-os",
-          style: {
-          },
+          style: {},
         },
         {
           skillName: "iOS",
@@ -227,8 +226,7 @@ const skills = {
         {
           skillName: "GCP",
           fontAwesomeClassname: "logos:google-cloud",
-          style: {
-          },
+          style: {},
         },
         {
           skillName: "Firebase",
@@ -283,16 +281,15 @@ const skills = {
 
 // Education Page
 const competitiveSites = {
-  competitiveSites: [
-    
-  ],
+  competitiveSites: [],
 };
 
 const degrees = {
   degrees: [
     {
       title: "CentraleSupélec - Paris Saclay",
-      subtitle: "French 'Diplôme d'ingenieur' in Electrical and Computer Sciences",
+      subtitle:
+        "French 'Diplôme d'ingenieur' in Electrical and Computer Sciences",
       logo_path: "centrale-supelec.png",
       backgroundColor: "#FFFFFF",
       alt_name: "CentraleSupélec",
@@ -334,14 +331,23 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "Fullstack Developer",
+          company: "Galadrim",
+          company_url: "https://galadrim.fr",
+          logo_path: "galadrim.jpeg",
+          duration: "August 2021 - Today",
+          location: "🇷🇪 La Réunion and 🇫🇷 Paris",
+          description: "",
+          color: "#303030",
+        },
+        {
           title: "Freelance Data Scientist and Fullstack Developer",
           company: "Me",
           company_url: "https://www.malt.fr/profile/leandrearnaud",
           logo_path: "malt.png",
           duration: "August 2021 - Today",
           location: "🇷🇪 La Réunion and 🇫🇷 Paris",
-          description:
-            "",
+          description: "",
           color: "#db243e",
         },
         {
@@ -353,7 +359,7 @@ const experience = {
           location: "🇷🇪 La Réunion and 🇫🇷 Paris",
           description:
             "I am coaching Data Scientist students and helping them on: data cleaning, feature engineering, scoring, clustering, regression, classificaiton and model deployment in cloud services.",
-          color: "#db243e",
+          color: "#6b5ae3",
         },
         {
           title: "Data Scientist",
@@ -364,7 +370,7 @@ const experience = {
           location: "🇫🇷 Paris",
           description:
             "I created a Marketing Mix Modeling (MMM), I made a marketing-channel scoring, I also created a GeoMarketing tool to automately benchmark museums in a city, I made client clusterings, I gave advisory about cloud provision to financial institutions.",
-          color: "#db243e",
+          color: "#ecb571",
         },
       ],
     },
@@ -446,8 +452,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "",
+    subtitle: "",
     avatar_image_path: "address_image.svg",
     location_map_link: "",
   },
